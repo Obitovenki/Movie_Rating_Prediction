@@ -62,80 +62,78 @@ Edit
 jupyter notebook
 Open movie_rating_prediction.ipynb and execute all cells sequentially.
 
-📊 Project Workflow
-1. Data Cleaning
-Handle missing values
+## 📊 Project Workflow
+  1. Data Cleaning
+    Handle missing values
+    
+    Convert text-based columns to appropriate formats
+    
+    Extract and standardize numerical features (e.g., duration)
+  
+  2. Exploratory Data Analysis (EDA)
+    Visualize rating distributions and relationships
+    
+    Analyze popular genres, directors, and actors
+    
+    Correlation heatmaps and outlier checks
+    
+  3. Feature Engineering
+    Label encoding for categorical variables
+    
+    Generate new features like:
+    
+      Director Success Rate
+      
+      Average Votes of Cast
+      
+      Movie Age
+  
+  4. Model Building
+    Algorithms used:
+    
+     1. Linear Regression
+      
+     2. Random Forest Regressor
+      
+     3. Gradient Boosting Regressor
+      
+     4. Evaluation metrics:
+      
+     5. R² Score
+      
+     6. Root Mean Squared Error (RMSE)
+      
+     7. Model tuning using GridSearchCV
 
-Convert text-based columns to appropriate formats
+## ✅ Evaluation Criteria
 
-Extract and standardize numerical features (e.g., duration)
+  ✔️ Functionality: Accurate and reliable prediction of IMDb movie ratings
+  
+  ✔️ Code Quality: Modular, clean, and well-commented scripts
+  
+  ✔️ Readability: Logical structure and descriptive documentation
+  
+  ✔️ Insights: Clear visualizations and understandable findings
 
-2. Exploratory Data Analysis (EDA)
-Visualize rating distributions and relationships
+## 📁 Folder Structure
+    
+    movie-rating-prediction/
+    │
+    ├── Data Files/
+    │   └── indian_movies.csv
+    │
+    ├── images/
+    │   └── charts and graphs from EDA
+    │
+    ├── models/
+    │   └── saved_model.pkl
+    │
+    ├── movie_rating_prediction.ipynb
+    ├── requirements.txt
+    └── README.md
 
-Analyze popular genres, directors, and actors
 
-Correlation heatmaps and outlier checks
+## 📬 Contact
 
-3. Feature Engineering
-Label encoding for categorical variables
-
-Generate new features like:
-
-Director Success Rate
-
-Average Votes of Cast
-
-Movie Age
-
-4. Model Building
-Algorithms used:
-
-Linear Regression
-
-Random Forest Regressor
-
-Gradient Boosting Regressor
-
-Evaluation metrics:
-
-R² Score
-
-Root Mean Squared Error (RMSE)
-
-Model tuning using GridSearchCV
-
-✅ Evaluation Criteria
-✔️ Functionality: Accurate and reliable prediction of IMDb movie ratings
-
-✔️ Code Quality: Modular, clean, and well-commented scripts
-
-✔️ Readability: Logical structure and descriptive documentation
-
-✔️ Insights: Clear visualizations and understandable findings
-
-📁 Folder Structure
-csharp
-Copy
-Edit
-movie-rating-prediction/
-│
-├── Data Files/
-│   └── indian_movies.csv
-│
-├── images/
-│   └── charts and graphs from EDA
-│
-├── models/
-│   └── saved_model.pkl
-│
-├── movie_rating_prediction.ipynb
-├── requirements.txt
-└── README.md
-🤝 Contributing
-Contributions, issues and feature requests are welcome!
-Feel free to fork the repo and submit a pull request.
-
-📬 Contact
-Prasanna Venkatesh
-📧 prasannavenkatesh.5261@gmail.com
+  Prasanna Venkatesh
+  📧 prasannavenkatesh.5261@gmail.com
